@@ -7,9 +7,10 @@
     background: #e1e1e3;
 }
 .middle-top{
+    position: absolute;
+    margin-left:45%;
     display: none;
     width: 800px;
-    margin:0 auto;
     border-left:20px solid #989898;
     border-right:20px solid #989898;
     border-bottom:20px solid #989898;
