@@ -11,13 +11,7 @@ a {
     text-decoration: none;
     color: #444;
 }
-/*@media (max-width:1165px){*/
-    /*.background img{*/
-        /*height: 650px;*/
-        /*width: auto;*/
-        /*margin-top: 0;*/
-    /*}*/
-/*}*/
+
 ul {
     list-style: none;
 }
@@ -38,9 +32,11 @@ header {
 .background img {
     height: auto;
     width: 100%;
+    position: absolute;
+    bottom: -50px;
 }
-@media screen and (max-width: 996px) {
-    .background img {width: auto; height: 660px;margin-top: 0;}
+@media screen and (max-width: 1090px) {
+    .background img {width: auto; height: 710px;margin-top: 0;}
     .bottom-nav .nav ul {width: 970px;}
 }
 .login-wrapper {
@@ -248,7 +244,7 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
     width: 135px;
     height: 40px;
 }
-.download {
+#downloadApp {
     color: #7594b3;
     font-size: 18px;
     cursor: pointer;
@@ -257,22 +253,25 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
     display: none;
     padding: 0 40px;
 }
-.download-app ul li {
+.download-app ul li,#download ul li {
     padding: 0 0 20px;
 }
-.download-app ul li span{
+.download-app ul li span,#download ul li span{
     float: left;
     line-height: 40px;
     font-size: 12px;
     width: 84px;
 }
-.download-app ul li:after {
+.download-app ul li:after,#download ul li:after {
     display: block;
     clear: both;
     content: "";
 }
-.download-app ul li:last-child {
+.download-app ul li:last-child,#download ul li:last-child  {
     padding: 0;
+}
+#download ul {
+    float: left;
 }
 .android {
     background-position: -467px -707px;
@@ -533,7 +532,7 @@ footer {
     text-align: center;
     box-shadow: 0 0 40px #41404085;
     padding: 26px 0;
-    z-index: 999;
+    z-index: 99;
 }
 .bottom-nav .nav {
     padding: 0;
@@ -557,4 +556,61 @@ footer {
 }
 .bottom-nav .nav .nav-wechat {
     background-position: -213px -1191px;
+}
+#bg2,#bg-author2 {
+    display: none;
+}
+header {
+    background: #000;
+}
+#download {
+    position: fixed;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 0;
+    opacity: 1;
+    z-index: 9999;
+    display: none;
+}
+.down-head {
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+    height: 21px;
+    line-height: 21px;
+    padding: 24px 40px;
+}
+.down-head span {
+    font-size: 18px;
+    color: #444;
+    float: left;
+    cursor: pointer;
+}
+#close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 24px;
+    top: 24px;
+    background: url(../images/icon7.png) no-repeat -189px -3px;
+}
+.down-main {
+    padding: 60px 78px;
+    width: 600px;
+    display: table;
+    box-sizing: border-box;
+}
+.download-bg {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    filter: alpha(opacity=80);
+    z-index: 909;
+    height: 5613px;
+    opacity: 0.8;
 }
