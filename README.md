@@ -26,7 +26,7 @@ feature: add find user by name api
 ```
 etc: batch change file structure under tmp directory
 
-开发规范：
+# 开发规范：
 * 一定要在dev分支上写、修改自己的文件, 不允许第一时间写在master分支内
 * 必须使用JQuery, 不允许使用原生JS
 * 可以引用框架例如Vue.js、Angular.js
