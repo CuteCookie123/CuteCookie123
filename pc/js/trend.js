@@ -5,36 +5,37 @@ $(function(){
     $('.samebottomimg').mouseleave(function(){
         $('.samebottomimg').attr('src','../images/lixin1.png');
     });
+    console.log($('.samebottomimg'));
     var i=0;
-    var number = parseInt($('#number').text());
+    var number = $('.number').text();
+    console.log(number);
     $('.samebottomimg').click(function(){
         if(i%2==0){
             $('.samebottomimg').attr('src','../images/lixin3.png');
             number=number+1;
-            $('#number').text(number);
+            // $('.number').text(number);
         }
         else{
             $('.samebottomimg').attr('src','../images/lixin2.png');
             number=number-1;
-            $('#number').text(number);
+            // $('.number').text(number);
         }
         i++;
     });
-
     $('.sameButton1').click(function(){
-        $('.sameButton2').css('display','block');
-        $('.sameButton1').css('display','none');
-        $('#middle-top1').slideDown(1000);
+        $('.sameButton2').show();
+        $('.sameButton1').hide();
+        $('#middle-top1').slideDown(500);
         setTimeout(function(){
-            $('#middle-top1').slideUp(1000)
+            $('#middle-top1').slideUp(500)
         },3000);
     });
     $('.sameButton2').click(function(){
-        $('.sameButton1').css('display','block');
-        $('.sameButton2').css('display','none');
-        $('#middle-top2').slideDown(1000);
+        $('.sameButton1').show();
+        $('.sameButton2').hide();
+        $('#middle-top2').slideDown(500);
         setTimeout(function(){
-            $('#middle-top2').slideUp(1000)
+            $('#middle-top2').slideUp(500)
         },3000);
     });
 });
