@@ -42,4 +42,5 @@ $(function() {
             swiper1.slideTo(n, 500, false);
         }
     });
+
 });
