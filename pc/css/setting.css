@@ -23,6 +23,7 @@ a{
     padding: 0 0 2px;
     margin: 0 auto;
     text-align: left;
+    border: 2px solid #eeeeee;
     /*background: #ee8ece;*/
 }
 .container .column1{
@@ -67,16 +68,41 @@ a{
 .right .txt{
     margin-bottom: 17px;
     color: #888;
+    font-size: 12px;
 }
 .right .link{
     line-height: 15px;
     font-size: 12px;
     color: #5a8dcd;
 }
+.right .connect{
+    color: #888888;
+}
+.right .connect .icon{
+    display: inline-block;
+    padding: 3px 6px;
+    background: #ccc;
+}
+.icon .fab{
+    color: #ffffff;
+}
+.right .connect .word{
+    color: #888;
+    font-size: 12px;
+}
+.connect .weibo,
+.connect .qq,
+.connect .weixin{
+    margin-right: 50px;
+}
+.connect span{
+    margin-left: 10px;
+}
 .right h4{
     margin: 0 0 6px;
     font-weight: normal;
     color: #888;
+    font-size: 12px;
 }
 .right li{
     list-style: none;
@@ -107,6 +133,54 @@ a{
 }
 .right .sex-choose{
     display: inline;
+    margin-right: 50px;
+}
+.right .sex-radio{
+    margin-right: 6px;
+}
+.column3{
+    padding: 26px 30px 16px;
+}
+.column3 .btns{
+    position: relative;
+    height: 40px;
+    margin: 5px 0 15px;
+}
+.column3 .btn1,
+.column3 .btn2,
+.column3 .btn3{
+    display: block;
+    float: left;
+    height: 40px;
+    margin-right: 10px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #444;
+    background: #F7F7F7;
+    border: 1px solid #eeeeee;
+}
+.column3 .btn1,
+.column3 .btn2{
+    width: 104px;
+}
+.column3 .btn3{
+    width: 169px;
+}
+.column3 .r-btn{
+    display: block;
+    float: right;
+    margin-right: 10px;
+    width: 104px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    background:#739900;
+    border: 1px solid #739900;
+}
+footer{
+    margin-top: 100px;
 }
 
 
