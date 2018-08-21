@@ -41,6 +41,7 @@ header {
 }
 @media screen and (max-width: 996px) {
     .background img {width: auto; height: 660px;margin-top: 0;}
+    .bottom-nav .nav ul {width: 970px;}
 }
 .login-wrapper {
     width: 100%;
@@ -521,4 +522,39 @@ footer {
 }
 .tip-right span {
     margin:0 10px 0 5px;
+}
+.bottom-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 40px #41404085;
+    padding: 26px 0;
+    z-index: 999;
+}
+.bottom-nav .nav {
+    padding: 0;
+}
+.bottom-nav .nav ul li {
+    width: 107px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 0 0 54px;
+}
+.bottom-nav .nav .nav-email {
+    background-position: -310px -461px;
+}
+.bottom-nav .nav .nav-weibo {
+    background-position: -1px -601px;
+}
+.bottom-nav .nav .nav-qq {
+    background-position: -1px -651px;
+}
+.bottom-nav .nav .nav-wechat {
+    background-position: -213px -1191px;
 }
