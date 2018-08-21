@@ -23,25 +23,39 @@ $(document).ready(function(){
         $("#emailLogin-box").hide();
         $("#telLogin-box").show();
     });
+    $(".prv").click(function () {
+        $("#bg1").fadeIn();
+        $("#bg2").hide();
+        $("#bg-author1").fadeIn();
+        $("#bg-author2").hide();
+
+    });
+    $(".nex").click(function () {
+        $("#bg1").hide();
+        $("#bg2").fadeIn();
+        $("#bg-author1").hide();
+        $("#bg-author2").fadeIn();
+    });
+    $("#downloadApp").click(function () {
+        $("#download").fadeIn();
+        $(".download-bg").fadeIn();
+    });
+    $("#close").click(function () {
+        $("#download").fadeOut();
+        $(".download-bg").fadeOut();
+    });
+
+
 
     var winHeight = $(document).scrollTop();
-
     $(window).scroll(function() {
         var scrollY = $(document).scrollTop();// 获取垂直滚动的距离，即滚动了多少
 
-        if (scrollY > 800 && scrollY < 4500){ //如果滚动距离大于550px则隐藏，否则删除隐藏类
+        if (scrollY > 800 && scrollY < 4500){ //如果滚动距离满足条件则出现，否则删除隐藏类
             $('.bottom-nav').fadeIn();
         }
         else {
             $('.bottom-nav').fadeOut();
         }
-
-        // if (scrollY > winHeight){ //如果没滚动到顶部，删除显示类，否则添加显示类
-        //     $('.bottom-nav').hide();
-        // }
-        // else {
-        //     $('.bottom-nav').show();
-        // }
-
     });
 });
