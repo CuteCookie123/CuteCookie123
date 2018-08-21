@@ -1,0 +1,29 @@
+$(function(){
+    $('.samebottomimg').hover(function(){
+        $('.samebottomimg').attr('src','../images/lixin2.png');
+    });
+    $('.samebottomimg').mouseleave(function(){
+        $('.samebottomimg').attr('src','../images/lixin1.png');
+    });
+    var i=0;
+    $('.samebottomimg').click(function(){
+        if(i%2==0){
+            $('.samebottomimg').attr('src','../images/lixin3.png');
+        }
+        else{
+            $('.samebottomimg').attr('src','../images/lixin2.png');
+        }
+        i++;
+    });
+    $('.sameButton1').click(function(){
+        $('.sameButton2').css('display','block');
+        $('.sameButton1').css('display','none');
+        $('#middle-top1').show(3000);
+        $('#middle-top1').hide(3000);
+    });
+    $('.sameButton2').click(function(){
+        $('.sameButton1').css('display','block');
+        $('.sameButton2').css('display','none');
+        $('#middle-top2').show(1000);
+    });
+});
