@@ -11,4 +11,16 @@ $(document).ready(function(){
         $(this).addClass("active").siblings().removeClass("active");
         $(".download-app").show().siblings().hide();
     });
+    $("#emailLogin").click(function(){
+        $(this).hide();
+        $("#phoneLogin").show();
+        $("#telLogin-box").hide();
+        $("#emailLogin-box").show();
+    });
+    $("#phoneLogin").click(function(){
+        $(this).hide();
+        $("#emailLogin").show();
+        $("#emailLogin-box").hide();
+        $("#telLogin-box").show();
+    });
 });
