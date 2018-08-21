@@ -18,15 +18,34 @@
         </div>
         <div class="login-box">
             <div class="login-head">
-                <a href="">注 册</a>
-                <a href="" class="active">登 录</a>
-                <a href="">下载APP</a>
+                <a href="#" id="register">注 册</a>
+                <a href="#" class="active" id="login">登 录</a>
+                <a href="#" id="downApp">下载APP</a>
             </div>
             <div class="login-content">
-                <div class="register"></div>
-                <div class="login">
+                <div class="register">
                     <div class="login-left">
                         <div class="tel-login">
+                            <input type="text" placeholder="常用邮箱/网易邮箱">
+                            <input type="text" class="password" placeholder="密码">
+                            <div class="verify"></div>
+                            <div class="phone-number-login">注 册</div>
+                        </div>
+                    </div>
+                    <div class="login-rigth">
+                        <span class="line"></span>
+                        <span class="septxt">或</span>
+                        <ul>
+                            <li class="phone">手机账号注册</li>
+                            <li class="weibo">新浪微博注册</li>
+                            <li class="qq">腾讯QQ注册</li>
+                            <li class="wechat">微信注册</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="login">
+                    <div class="login-left">
+                        <div class="tel-login" id="telLogin-box">
                             <input type="text" class="phone-number" placeholder="手机号码">
                             <span class="tel-tip">+86</span>
                             <input type="text" class="password" placeholder="请输入密码">
@@ -37,15 +56,28 @@
                                 <a href="#">忘记密码？</a>
                             </div>
                         </div>
+                        <div class="tel-login email-login">
+                            <input type="text" placeholder="常用邮箱/网易邮箱">
+                            <input type="text" class="password" placeholder="密码">
+                            <div class="phone-number-login">手机账号登陆</div>
+                            <div class="login-tip">
+                                <input type="checkbox" class="checkbox" checked="true">
+                                <span>十天内免登陆</span>
+                                <a href="#">忘记密码？</a>
+                                <span>|</span>
+                                <a href="#">忘记密码？</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="login-rigth">
                         <span class="line"></span>
                         <span class="septxt">或</span>
                         <ul>
-                            <li class="email">网易邮箱登录</li>
-                            <li class="weibo">新浪微博登陆</li>
-                            <li class="qq">腾讯QQ登陆</li>
-                            <li class="wechat">微信登陆</li>
+                            <li class="email" id="emailLogin">网易邮箱登录</li>
+                            <li class="phone" id="phoneLogin">手机账号登录</li>
+                            <li class="weibo">新浪微博登录</li>
+                            <li class="qq">腾讯QQ登录</li>
+                            <li class="wechat">微信登录</li>
                         </ul>
                     </div>
                 </div>
@@ -71,9 +103,9 @@
     </div>
     <div class="log-bm">
         <div class="bg-change">
-            <a href="" class="author">背景作品来自：Kitesszh</a>
-            <a href="" class="itm prv"></a>
-            <a href="" class="itm nex"></a>
+            <a href="#" class="author">背景作品来自：Kitesszh</a>
+            <a href="#" class="itm prv"></a>
+            <a href="#" class="itm nex"></a>
         </div>
     </div>
 </header>
@@ -130,7 +162,7 @@
     <div class="lofter">
         <h1>轻巧的移动LOFTER</h1>
         <p>通过iPhone、iPad版及Android版客户端，体验LOFTER的快速、漂亮、有趣，提供多种时下最热的贴纸，<br>
-            让你的相片分享增加乐趣，还可以在移动端查看附近的人。<br><a href="" class="download">马上下载 ></a></p>
+            让你的相片分享增加乐趣，还可以在移动端查看附近的人。<br><span href="#" class="download">马上下载 ></span></p>
         <span class="img moble-lofter"></span>
         <ul class="icon-ul">
             <li>
@@ -179,5 +211,7 @@
         <span>增值电信业务经营许可证：浙B2-20090185</span>
     </div>
 </footer>
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../js/login.js"></script>
 </body>
 </html>
