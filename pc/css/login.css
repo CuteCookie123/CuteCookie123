@@ -32,6 +32,9 @@ header {
     width: 100%;
     height: 100%;
 }
+.register {
+    display: none;
+}
 .background img {
     height: auto;
     width: 100%;
@@ -103,6 +106,7 @@ header {
     text-indent: 20px;
     border: 1px solid #c5cddb;
     outline:none;
+    font-size: 14px;
 }
 .tel-tip {
     position: absolute;
@@ -111,11 +115,26 @@ header {
     top: 37px;
     left: 45px;
 }
+#telLogin-box {
+    display: none;
+}
 .login-left .tel-login .phone-number{
     text-indent: 60px;
 }
 .login-left .tel-login .password {
     border-top: none;
+}
+input::-webkit-input-placeholder{
+    color:#d7d7d7;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#d7d7d7;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#d7d7d7;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color:#d7d7d7;
 }
 .phone-number-login {
     width: 300px;
@@ -188,6 +207,12 @@ header {
     line-height: 40px;
     margin: 0 0 10px;
 }
+.phone {
+    background: url(../images/telYi.png) no-repeat -19px -90px;
+}
+.phone:hover {
+    background-position: -217px -90px;
+}
 .email {
     background: url(../images/telYi.png) -19px -29px;
 }
@@ -221,6 +246,11 @@ header {
     background: url(../images/btn.png) no-repeat -467px -587px;
     width: 135px;
     height: 40px;
+}
+.download {
+    color: #7594b3;
+    font-size: 18px;
+    cursor: pointer;
 }
 .download-app {
     display: none;
@@ -382,9 +412,6 @@ header {
 .lofter {
     background: #f7f7f7;
 }
-.lofter p a {
-    color: #7594b3;
-}
 .moble-lofter {
     background: url("../images/mobilelofter.jpg")  no-repeat center top;
 }
@@ -460,4 +487,7 @@ footer {
 }
 .ft2 span{
     margin-left: 20px;
+}
+#phoneLogin {
+    display: none;
 }

@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#register").click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+        $(".register").show().siblings().hide();
+    });
+    $("#login").click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+        $(".login").show().siblings().hide();
+    });
+    $("#downApp").click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+        $(".download-app").show().siblings().hide();
+    });
+});
