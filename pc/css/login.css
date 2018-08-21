@@ -115,7 +115,7 @@ header {
     top: 37px;
     left: 45px;
 }
-#telLogin-box {
+#emailLogin-box {
     display: none;
 }
 .login-left .tel-login .phone-number{
@@ -490,4 +490,35 @@ footer {
 }
 #phoneLogin {
     display: none;
+}
+.safe {
+    margin: 20px 0;
+    font-size: 12px;
+    display: table;
+    color: black;
+}
+.safe img {
+    float: left;
+    margin-top: 1px;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+.safe p {
+    float: left;
+}
+.safe a {
+    color: #4aafe9;
+}
+.email-login {
+    margin-top: 0;
+}
+.tip-right {
+    float: right;
+}
+.tip-right a, .tip-right span{
+    float: left;
+}
+.tip-right span {
+    margin:0 10px 0 5px;
 }

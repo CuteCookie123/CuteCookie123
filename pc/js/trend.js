@@ -8,8 +8,6 @@ $(function(){
     var i=0;
     var number = parseInt($('#number').text());
     $('.samebottomimg').click(function(){
-        console.log(number);
-        console.log(typeof(number));
         if(i%2==0){
             $('.samebottomimg').attr('src','../images/lixin3.png');
             number=number+1;
@@ -21,8 +19,6 @@ $(function(){
             $('#number').text(number);
         }
         i++;
-
-
     });
 
     $('.sameButton1').click(function(){
