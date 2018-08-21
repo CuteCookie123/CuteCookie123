@@ -26,7 +26,7 @@ feature: add find user by name api
 ```
 etc: batch change file structure under tmp directory
 
-# 开发规范：
+开发规范：
 * 一定要在dev分支上写、修改自己的文件, 不允许第一时间写在master分支内
 * 必须使用JQuery, 不允许使用原生JS
 * 可以引用框架例如Vue.js、Angular.js
@@ -43,7 +43,7 @@ etc: batch change file structure under tmp directory
 	(1)克隆远程仓库至本地: git clone https://github.com/CuteCookie123/CuteCookie123.git   (如果进行过这步操作则可以跳过)
 	(2)本地创建dev分支并切换至dev分支: git checkout -b dev     (如果本地已经创建并切换了dev分支则可以跳过)
 	(3)将github上dev分支的内容同步至本地dev分支: git pull origin dev   (如果本地已经同步了仓库上的dev分支内容则可以省略)
-	(4)修改好文件或编写好文件上传至缓存区: git add .
-	(5)缓存区提交文件: git commit -m "备注"    (备注格式见最上方git提交规则)
-	(6)*从github仓库上更新数据至本地仓库: git pull origin dev   (这步一定要写, 防止数据没有及时更新, 这步和第3步的意义不同,不可省略)
+	(4)*从github仓库上更新数据至本地仓库: git pull origin dev   (这步一定要写, 防止数据没有及时更新, 这步和第3步的意义不同,不可省略)
+	(5)修改好文件或编写好文件上传至缓存区: git add .
+	(6)缓存区提交文件: git commit -m "备注"    (备注格式见最上方git提交规则)
 	(7)将文件从缓存区提交至远程github仓库: git push origin dev
