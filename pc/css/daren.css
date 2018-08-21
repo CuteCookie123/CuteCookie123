@@ -218,3 +218,141 @@ body {
 .focus:hover{
     background: #444;
 }
+.wrapper{
+    background: #fff;
+    padding: 26px 30px 0 30px;
+}
+.s-title{
+    padding: 6px 0 8px 0;
+}
+.s-title a{
+    color: #888;
+    font-size: 14px;
+}
+.find{
+    padding: 26px 30px 30px 30px;
+}
+.invitemain {
+    display: inline-block;
+    width: 586px;
+    overflow: hidden;
+}
+.i-main{
+    width: 387px;
+    padding-top: 63px;
+    margin: 0 auto;
+}
+.i-main span{
+    font-size: 14px;
+}
+.binding{
+    width: 104px;
+    height: 40px;
+    background: #779e00;
+    margin-top: 20px;
+    text-align: center;
+}
+.binding input{
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: -1px -1px 0px #779e00;
+    margin-top: 10px;
+}
+.inviteside{
+    display: inline-block;
+    width: 259px;
+    margin-top: 36px;
+    margin-bottom: 1px;
+    background: #f3f3f3;
+}
+.inviteside ul li{
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    line-height: 32px;
+    font-size: 14px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ededef;
+}
+.inviteside ul li i {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+}
+.inviteside ul li span {
+    margin-left: 40px;
+}
+.logo1 {
+    background: url("../images/icon24.png") no-repeat -85px -6px;
+}
+.logo2 {
+    background: url("../images/icon24.png") no-repeat -128px -6px;
+}
+.logo3 {
+    background: url("../images/icon24.png") no-repeat -169px -6px;
+}
+.logo4 {
+    background: url("../images/icon24.png") no-repeat -211px -6px;
+}
+.logo5 {
+    background: url("../images/icon24.png") no-repeat -253px -6px;
+}
+.invite {
+    background: #444;
+    color: #fff;
+    opacity: .6;
+}
+.invite:hover {
+    background: #444;
+}
+.invite .logo1{
+    background: url("../images/icon24.png") no-repeat -85px -40px;
+}
+.invite .logo2{
+    background: url("../images/icon24.png") no-repeat -128px -40px;
+}
+.invite .logo3{
+    background: url("../images/icon24.png") no-repeat -169px -40px;
+}
+.invite .logo4{
+    background: url("../images/icon24.png") no-repeat -211px -40px;
+}
+.invite .logo5{
+    background: url("../images/icon24.png") no-repeat -253px -40px;
+}
+.i-link{
+    padding-left: 40px;
+}
+.i-link span{
+    font-size: 14px;
+    color: #444;
+}
+.copy{
+    width: 104px;
+    height: 40px;
+    background: #779e00;
+    margin-top: 10px;
+    text-align: center;
+}
+.copy input{
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: -1px -1px 0px #779e00;
+    margin-top: 10px;
+}
+.txt {
+    margin-top: 10px;
+    width: 430px;
+    height: 23px;
+    padding: 7px;
+    line-height: 22px;
+    font-size: 16px;
+    border: 1px solid #cececf;
+    outline: none;
+}
