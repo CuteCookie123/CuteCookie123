@@ -11,6 +11,7 @@ $(document).ready(function(){
         $(this).addClass("active").siblings().removeClass("active");
         $(".download-app").show().siblings().hide();
     });
+
     $("#emailLogin").click(function(){
         $(this).hide();
         $("#phoneLogin").show();
@@ -23,6 +24,7 @@ $(document).ready(function(){
         $("#emailLogin-box").hide();
         $("#telLogin-box").show();
     });
+
     $(".prv").click(function () {
         $("#bg1").fadeIn();
         $("#bg2").hide();
@@ -36,6 +38,7 @@ $(document).ready(function(){
         $("#bg-author1").hide();
         $("#bg-author2").fadeIn();
     });
+
     $("#downloadApp").click(function () {
         $("#download").fadeIn();
         $(".download-bg").fadeIn();
@@ -58,7 +61,7 @@ $(document).ready(function(){
     });
 
     //中间图片切换
-    $(".slider ul li img").click(function () {
+    $("#slider li img").click(function () {
         var halfWidth = $(window).width()/2;
         var e = event || window.event;
         var x = e.clientX ;
