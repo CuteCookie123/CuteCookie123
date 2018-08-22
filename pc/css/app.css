@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+.liyingdaapp{
+    background: #f4f4f4;
+    padding-top:50px;
+}
+.main-top{
+    margin:0 18%;
+}
+.main-top-left{
+    display: inline-block;
+    width: 45%;
+    margin-right:4%;
+}
+.main-top-left-p1{
+    color:#ababab;
+    margin-top: 85px;
+    font-size: 25px;
+    letter-spacing: 40px;
+    padding-left: 45px;
+}
+.main-top-img{
+    float: right;
+    width: 50%;
+}
+.main-top-left-middle{
+    background: white;
+    border-radius:5px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.main-top-left-middle>img{
+    float:left;
+    width: 50%;
+    display: inline-block;
+}
+.main-top-left-div{
+    height: 48px;
+    line-height: 48px;
+    font-size: 23px;
+    color: white;
+    margin: 14px 20px 14px 0;
+    border-radius: 5px;
+    padding: 0 22px;
+    float: right;
+    background: #336162;
+    width: 30%;
+}
+.main-top-left-div>img{
+    width: 30px;
+}
+.main-top-left-p2{
+    font-size: 18px;
+    color: #fff;
+    background: #8fbe00;
+    text-align: center;
+    letter-spacing: 3px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 23px;
+    margin-bottom: 21px;
+}
+.main-img{
+    width: 60%;
+    padding:70px 0;
+    margin-left:20%;
+}
+.main-bottom{
+    padding: 50px 0;
+    width: 100%;
+    background: #181818;
+}
+.main-bottom>img{
+    width: 50%;
+    margin-left: 25%;
+}
+.main-bottom-p{
+    position: relative;
+    left: 40%;
+    font-size: 24px;
+    color: white;
+    bottom: 41px;
+}
