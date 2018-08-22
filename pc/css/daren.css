@@ -129,6 +129,8 @@ body {
     visibility: visible;
     color: #b6b6b6;
     font-size: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
 }
 .delete:hover {
     color: #7594b3;
