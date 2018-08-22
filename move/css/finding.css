@@ -7,6 +7,18 @@ body {
     text-align: center;
     color: #303030;
 }
+/*设置字体*/
+@media screen and (max-width: 320px){
+    html{
+        font-size: 15px !important;
+    }
+}
+@media screen and (min-width: 320px){
+
+}
+
+
+
 .container {
     width: 100%;
     border: 1px solid #ccc;
@@ -97,11 +109,32 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #eeeeee;
+    padding-bottom: 15px;
+    /*background-color: #eeeeee;*/
 }
 .second-part-head .head-item{
+    position: relative;
     width: 23%;
     height: 23vw;
-    background-color: deeppink;
+    /*background-color: deeppink;*/
+}
+.second-part-head .head-item img{
+    width: 100%;
+}
+.second-part-head .head-item .item-header{
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    color: #fff;
+    font-family: "PingFang SC";
+    font-size: .9rem;
+    text-align: left;
+}
+/*萌宠达人*/
+.second-part-person{
+    background-color: #fff;
+    text-align: left;
+}
+.second-part-person span{
+    display: inline-block;
 }
