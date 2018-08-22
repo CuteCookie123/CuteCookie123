@@ -2,14 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>主页设置 | </title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/homePage_setting.css">
+    <script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
-    <div class="nav-bar"></div>
+    <div class="nav-bar">
+        <div id="nav-title">
+            <span v-if="box" @click="showToggle" class="title-bar">主页信息</span>
+            <div class="hideOne" v-show="isShow">
+                <div class="item_t">头像</div>
+                <div class="item_d">
+                    <img src="../images/setting/photo.jpg" alt="">
+                    <p>支持jpg、gif、png、bmp格式</p>
+                    <a class="item_btn" href="">修改头像</a>
+                </div>
+                <div class="clear"></div>
+                <div class="item_t">名称</div>
+                <div class="item_name">
+                    <input type="text">
+                </div>
+                <div class="item_t">介绍
+                    <label class="item_r">你还可以输入<span>500</span>字</label>
+                    <div class="clear"></div>
+                </div>
+                <div class="intro-box">
+                    <textarea></textarea>
+                </div>
+                <div class="item_t">个性域名</div>
+                <div class="item_name">
+                    <input type="text" placeholder="qianshiguang856.lofter.com">
+                </div>
+            </div>
+            <span class="title-bar">模板选择</span>
+            <span class="title-bar">模板自定义</span>
+            <span class="title-bar">链接</span>
+            <span class="title-bar">互动</span>
+            <span class="title-bar">同步</span>
+            <span class="title-bar">归档</span>
+            <span class="title-bar">版权</span>
+            <span class="title-bar">手机模板</span>
+        </div>
+        <div class="bar-btn">
+            <a class="br-tn" href="#">保存并关闭</a>
+            <a class="br-tn" href="#">保 存</a>
+            <a class="br-tn" href="#">取 消</a>
+        </div>
+
+    </div>
     <div class="separate"></div>
     <div class="content">
         <div class="box1">
@@ -47,7 +90,6 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
             <div class="article">
                 <div class="side">
                     <a class="day" href="">21</a>
@@ -64,7 +106,6 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
             <div class="article">
                 <div class="side">
                     <a class="day" href="">25</a>
@@ -81,7 +122,6 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
             <div class="article">
                 <div class="side">
                     <a class="day" href="">24</a>
@@ -98,7 +138,6 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
             <div class="article">
                 <div class="side">
                     <a class="day" href="">24</a>
@@ -117,7 +156,6 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
             <div class="article">
                 <div class="side">
                     <a class="day" href="">24</a>
@@ -134,18 +172,15 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
             <div class="article">
                 <div class="side">
                     <a class="day" href="">24</a>
                     <a class="month" href="">08</a>
-
                 </div>
                 <div class="ar-main">
                     <p class="s-title">有这么一些人，喜欢拍点什么，写日志总是想不到标题，拍了一堆相片，不知如何组成一个文章，不知如何或者不想加上一些修饰就发布上来…… </p>
                     <p class="s-title">他们生活随 意，常常需要在工作台上贴上一些黄色的小纸条来提醒自己杂乱的工作，这时，真的需要一个LOFTER，也来参与一下热闹的互联网，微博你玩不起来，博客想 不到主题，不知道如何发布组图也不想发布，你也不知道如何组织文字和整理思路，但是你有一堆的好作品或者一堆好相片，也想在大伙里路过一下，让大伙转过头 来注意一下你……</p>
                     <p class="s-title">于是LOFTER遇上了你，你遇上了LOFTER</p>
-
                     <div class="link">
                         <a href="#">热度（283）</a>
                         <a href="#">全文链接</a>
@@ -153,7 +188,6 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
             <div class="article">
                 <div class="side">
                     <a class="day" href="">24</a>
@@ -170,12 +204,10 @@
                 </div>
                 <div class="clear"></div>
             </div>
-
-
-
         </div>
     </div>
 </div>
+<script src="../js/setting-hidebox.js"></script>
 
 </body>
 </html>
