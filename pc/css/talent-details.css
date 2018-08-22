@@ -30,17 +30,16 @@ body {
     height: 23px;
 }
 .g-hover{
-    position: fixed;
-    left: 26px;
-    top: 0;
-    width: 0;
+    /*position: absolute;*/
+    /*left: 26px;*/
+    /*top: 0;*/
+    /*width: 0;*/
     display: none;
-
 }
 .s-hover{
     position: fixed;
-    left: -20px;
-    top: 0;
+    right: 15px;
+    top: 8px;
     width: 167px;
     height: 23px;
     line-height: 23px;
