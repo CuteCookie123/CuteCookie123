@@ -4,15 +4,14 @@
 }
 .liyingdasubject{
     background: #ededef;
-    padding:15vh 0;
+    padding:40px 0;
 }
 @media screen and (min-width: 960px){
     .main-div {
         display: inline-block;
         width: 17vw;
-        height: 37vh;
-        margin: 0 2vw 6vh 0;
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/subject/subject1.jpg") no-repeat;
+        height: 155px;
+        margin: 0 2vw 20px 0;
         background-size: 17vw 37vh;
         overflow: hidden;
         text-align: center;
@@ -21,16 +20,15 @@
         width: 58vw;
         margin: auto;
         background: white;
-        padding: 7vh 0 0 2vw;
+        padding: 30px 0 0 2vw;
     }
 }
-@media screen and (max-width: 959px) and (min-width:471px){
+@media screen and (max-width: 960px) and (min-width:471px){
     .main-div {
         display: inline-block;
         width: 25vw;
-        height: 50vh;
-        margin: 0 2vw 6vh 0;
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/subject/subject1.jpg) no-repeat;
+        height: 155px;
+        margin: 0 2vw 20px 0;
         background-size: 25vw 50vh;
         overflow: hidden;
         text-align: center;
@@ -42,13 +40,12 @@
         padding: 7vh 0 0 2vw;
     }
 }
-@media screen and (max-width: 470px){
+@media screen and (max-width: 471px){
     .main-div {
         display: inline-block;
         width: 53vw;
-        height: 50vh;
-        margin: 0 2vw 6vh 0;
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/subject/subject1.jpg) no-repeat;
+        height: 155px;
+        margin: 0 2vw 20px 0;
         background-size: 53vw 50vh;
         overflow: hidden;
         text-align: center;
@@ -60,12 +57,6 @@
         padding: 7vh 0 0 2vw;
     }
 }
-.main{
-    width: 58vw;
-    margin: auto;
-    background: white;
-    padding: 7vh 0 0 2vw;
-}
 .main-div:hover{
     opacity: 0.7;
 }
@@ -74,6 +65,9 @@
     position: relative;
     top:35%;
     color:white;
+}
+.div{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/subject/subject1.jpg") no-repeat;
 }
 .div1{
     background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/subject/subject2.jpg") no-repeat;
