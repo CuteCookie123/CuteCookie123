@@ -16,6 +16,9 @@ body{
     text-align: center;
     background-color: #ededef;
 }
+.hide {
+     display: none;
+}
 .topic-body{
     width: 926px;
     padding: 0 0 2px;
@@ -84,6 +87,9 @@ body{
     margin-right: 10px;
     font-weight: normal;
 }
+.cont-title a:hover{
+    color: #5a8dcd;
+}
 .cont-title span{
     display: block;
     color: #aaa;
@@ -94,9 +100,7 @@ body{
     padding: 0 0 8px;
     font: bold 16px/1.8 Microsoft Yahei;
 }
-.cont a:hover{
-    color: #7594B3;
-}
+
 .icover{
     position: absolute;
     top: 0;
@@ -132,3 +136,26 @@ body{
 .cont-list{
     margin: 18px -1px 0 0;
 }
+#topic-top{
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background: url("../images/topic/icon-top.png");
+    background-position: 0 -934px;
+}
+#topic-top:hover {
+     background-position: -50px -934px;
+ }
+#topic-top.show {
+     display: block;
+ }
+ .icover:hover {
+    opacity: 0.3;
+    transition: .3s;
+}
+
+

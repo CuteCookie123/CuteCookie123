@@ -45,9 +45,7 @@ $(document).ready(function(){
         $(".download-bg").fadeOut();
     });
 
-
-
-    var winHeight = $(document).scrollTop();
+    //底部导航
     $(window).scroll(function() {
         var scrollY = $(document).scrollTop();// 获取垂直滚动的距离，即滚动了多少
 
@@ -58,4 +56,28 @@ $(document).ready(function(){
             $('.bottom-nav').fadeOut();
         }
     });
+
+    //中间图片切换
+    $(".slider ul li img").click(function () {
+        var halfWidth = $(window).width()/2;
+        var e = event || window.event;
+        var x = e.clientX ;
+        var left = $("#slider").offset().left;
+        //最左边不再左移
+        if (left>300 && x<halfWidth){
+            return left;
+        }
+        else if (left<-3100 && x>halfWidth){
+            return left;
+        }
+        //当鼠标点击位置在页面左半部分，向左移
+        else if(x<halfWidth){
+            $("#slider").css("left", left+720);
+        }
+        //当鼠标点击位置在页面右半部分，向右移
+        else{
+            $("#slider").css("left", left-720);
+        }
+    })
+
 });
