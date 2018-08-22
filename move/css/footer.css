@@ -15,12 +15,12 @@
     height: 30px;
     position: relative;
     margin-top: 5px;
-    margin-left: 32px;
+    margin-left: 9%;
 }
 .p1{
     position: relative;
     margin-top: 0;
-    margin-left: 32px;
+    margin-left: 9%;
     font-size: 15px;
     color:#cec9c9;
 }
@@ -29,12 +29,12 @@
     height: 40px;
     position: absolute;
     top: 0;
-    margin-left: 96px;
+    margin-left: 25%;
 }
 .p2{
     position: absolute;
     top: 40px;
-    margin-left: 99px;
+    margin-left: 26%;
     font-size: 15px;
     color:#cec9c9;
 }
@@ -43,19 +43,19 @@
     height: 41px;
     position: absolute;
     top: 13px;
-    margin-left: 164px;
+    margin-left: 44%;
 }
 .t4{
     width: 35px;
     height: 31px;
     position: absolute;
     top: 5px;
-    left: 237px;
+    left: 63%;
 }
 .p4{
     position: absolute;
     top: 40px;
-    margin-left: 239px;
+    margin-left: 63%;
     font-size: 15px;
     color:#cec9c9;
 }
@@ -64,12 +64,12 @@
     height: 31px;
     position: absolute;
     top: 5px;
-    right: 38px;
+    left: 82%;
 }
 .p5{
     position: absolute;
     top: 40px;
-    right: 38px;
+    left: 82%;
     font-size: 15px;
     color:#cec9c9;
 }
