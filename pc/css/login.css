@@ -207,6 +207,9 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 .phone {
     background: url(../images/telYi.png) no-repeat -19px -90px;
 }
+.phone a {
+    color: #fff;
+}
 .phone:hover {
     background-position: -217px -90px;
 }
@@ -537,7 +540,7 @@ footer {
 .bottom-nav .nav {
     padding: 0;
 }
-.bottom-nav .nav ul li {
+.bottom-nav .nav a {
     width: 107px;
     height: 40px;
     border-radius: 2px;
