@@ -1,4 +1,4 @@
-*{
+ *{
     margin:0;
     padding:0;
 }
@@ -11,17 +11,22 @@ a{
     outline: none;
     cursor: pointer;
 }
+body{
+    font-size:12px;
+    text-align: center;
+    background-color: #ededef;
+}
 .topic-body{
     width: 926px;
     padding: 0 0 2px;
     margin: 0 auto;
     text-align: left;
-
+    margin-bottom: 30px
 }
 .topic-body-middle{
     width: 924px;
     padding: 0 1px;
-    background:pink;
+    background:#fff;
 }
 .topic-body-middle:after,.topic-body-nav:after,.topic-nav-ul:after, .topic-body-con:after {
     display: block;
@@ -44,18 +49,20 @@ a{
     height: 36px;
     overflow: hidden;
     text-align: center;
-}
-.topic-nav-ul a{
     font-size: 16px;
     color: #555;
     line-height: 36px;
+    cursor: pointer;
 }
-.topic-nav-ul a:hover{
+ .selected {
+     background: #ececee;
+     color: #555;
+     font-weight: bold;
+ }
+
+.topic-nav-ul li:hover{
     color: #555;
     font-weight: bold;
-}
-.topic-nav-ul li:active{
-    background: #ECECEE;
 }
 .topic-body-con {
     padding: 0 30px;
@@ -87,6 +94,9 @@ a{
     padding: 0 0 8px;
     font: bold 16px/1.8 Microsoft Yahei;
 }
+.cont a:hover{
+    color: #7594B3;
+}
 .icover{
     position: absolute;
     top: 0;
@@ -109,6 +119,16 @@ a{
     background: #3D3D3D;
     color: #7B7B7B;
 }
+.cont-list-item .itemtxt{
+    padding: 8px 10px;
+}
+ .itemtxt strong {
+     display: block;
+     margin: 0 0 8px;
+     font-weight: normal;
+     font-size: 14px;
+     color: #fff;
+ }
 .cont-list{
     margin: 18px -1px 0 0;
 }
