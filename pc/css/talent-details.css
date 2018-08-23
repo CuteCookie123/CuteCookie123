@@ -16,6 +16,9 @@ body {
     height: 42px;
     margin-top: 8px;
 }
+.title{
+     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+ }
 .g-vip {
     position: absolute;
     right: 172px;
@@ -23,15 +26,15 @@ body {
 }
 .g-bd {
     background: url("../images/dr26x23.png") 0 0 no-repeat;
-    position: absolute;
-    left: -20px;
-    top: 0;
+    position: fixed;
+    right: 192px;
+    top: 8px;
     width: 26px;
     height: 23px;
 }
 .g-hover {
     position: fixed;
-    left: 764px;
+    left: 747px;
     top: 8px;
     z-index: 999;
 }
@@ -169,6 +172,93 @@ body {
 .sidelist li a:hover {
     color: #FEFEFE;
     background-color: #4d4d4d;
+}
+.post-wrapper {
+    width: 640px;
+    margin: 0 auto 40px;
+    padding: 25px 30px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+.block-photo{
+    margin: 0 0 35px;
+}
+.side {
+    width: 84px;
+    float: left;
+}
+.day a {
+    color: #828d95;
+    width: 70px;
+    height: 70px;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+    border: 5px solid #828d95;
+    border-radius: 100%;
+}
+.month a {
+    display: block;
+    margin: 6px 0 0;
+    color: #c0c0c0;
+    font-size: 24px;
+    text-align: center;
+}
+.day a:hover, .month a:hover {
+    border-color: #4d4d4d;
+    color: #4d4d4d;
+}
+.main {
+    margin-left: 110px;
+    padding-bottom: 48px;
+    background: url("../images/bottom1.png") bottom repeat-x;
+}
+.img {
+    margin: 0 0 15px;
+}
+.img a {
+    color: #828d95;
+}
+.txt {
+    line-height: 1.8;
+    font-size: 14px;
+}
+.txt p{
+    margin: 0 0 15px 0;
+    color: #737373;
+}
+.tag {
+    margin: 30px 0 0;
+    clear: both;
+}
+.tag a {
+    background-color: #828d95;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 0 12px 10px 0;
+    color: #FEFEFE;
+    white-space: nowrap;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.tag a:hover {
+    background-color: #4d4d4d;
+}
+.link {
+    margin: 20px 0 0;
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+}
+.link a {
+    display: block;
+    float: left;
+    height: 17px;
+    margin-right: 25px;
+    color: #828d95;
+    font-size: 12px;
 }
 
 

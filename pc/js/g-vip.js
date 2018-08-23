@@ -2,10 +2,10 @@ $(document).ready(function(){
     $('.s-hover').hide();
     $('.g-bd').hover(
         function(){
-            $('.s-hover').animate({width:'toggle'},350);
+            $('.s-hover').animate({width:'toggle'},500);
         },
         function(){
-            $('.s-hover').animate({width:'toggle'},350);
+            $('.s-hover').animate({width:'toggle'},500);
         }
     );
 });
