@@ -1,5 +1,11 @@
-$(".g-bd").hover(
-    function(){
-        $(".g-hover").toggle();
-    }
-);
+$(document).ready(function(){
+    $('.s-hover').hide();
+    $('.g-bd').hover(
+        function(){
+            $('.s-hover').animate({width:'toggle'},350);
+        },
+        function(){
+            $('.s-hover').animate({width:'toggle'},350);
+        }
+    );
+});

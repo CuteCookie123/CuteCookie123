@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;padding: 0;
 }
-a{
+a {
     text-decoration: none;
 }
-ul li{
+ul li {
     list-style: none;
 }
 body {
@@ -12,16 +12,16 @@ body {
     background-attachment: fixed;
     background-color: #dfdfe1;
 }
-.header{
+.header {
     height: 42px;
     margin-top: 8px;
 }
-.g-vip{
+.g-vip {
     position: absolute;
     right: 172px;
     width: 26px;
 }
-.g-bd{
+.g-bd {
     background: url("../images/dr26x23.png") 0 0 no-repeat;
     position: absolute;
     left: -20px;
@@ -29,29 +29,24 @@ body {
     width: 26px;
     height: 23px;
 }
-.g-hover{
-    /*position: absolute;*/
-    /*left: 26px;*/
-    /*top: 0;*/
-    /*width: 0;*/
-    display: none;
-}
-.s-hover{
+.g-hover {
     position: fixed;
-    right: 15px;
+    left: 764px;
     top: 8px;
-    width: 167px;
+    z-index: 999;
+}
+.s-hover {
+    float: right;
     height: 23px;
+    width: 167px;
     line-height: 23px;
     padding: 0 5px;
     color: #fff;
+    background:url("../images/vbg.png") no-repeat;
     font-size: 12px;
-    white-space: nowrap;
-    word-break: break-all;
-    background: url("../images/vbg.png") right 0 no-repeat;
-    z-index: 999;
+
  }
-.add{
+.add {
     position: fixed;
     right:105px;
     cursor: pointer;
@@ -59,16 +54,16 @@ body {
     font-size: 12px;
     background: url("../images/operatenew24.png") no-repeat 0 -120px;
 }
-.add:hover{
+.add:hover {
     background-position: 0 -90px;
 }
-.add span{
+.add span {
     height: 23px;
     line-height: 23px;
     color: #fff;
     padding: 0px 7px 0px 26px;
 }
-.return{
+.return {
     position: fixed;
     right:18px;
     cursor: pointer;
@@ -76,16 +71,16 @@ body {
     font-size: 12px;
     background: url("../images/operatenew24.png") no-repeat 0 -60px;
 }
-.return:hover{
+.return:hover {
     background-position: 0 -30px;
 }
-.return span{
+.return span {
     height: 23px;
     line-height: 23px;
     color: #fff;
     padding: 0px 7px 0px 26px;
 }
-.title{
+.title {
     width: 640px;
     margin: 0 auto 40px;
     padding: 25px 30px;
@@ -102,7 +97,7 @@ body {
     height: 80px;
     float: left;
 }
-.logo img{
+.logo img {
     width: 80px;
     height: 80px;
 }
@@ -120,16 +115,22 @@ body {
     font-weight: normal;
     font-size: 100%;
 }
+.selfinfo h1 a:hover {
+    color: #828d95;
+}
 .selfinfo h1 a {
     color: #4c4c4c;
     font-size: 26px;
 }
-.text{
+.text {
     padding-top: 4px;
     margin-left: 105px;
     color: #9d9d9d;
     line-height: 1.5;
     font-size: 12px;
+}
+.search {
+    float: right;
 }
 .search input {
     font-size: 12px;
@@ -141,6 +142,9 @@ body {
     background: url("../images/search.png") no-repeat 10px 6px;
     background-color: #f7f7f7;
     line-height: 16px;
+}
+::-webkit-input-placeholder {
+    color: #CBCBCB;
 }
 .search input:focus {
     outline: none;
