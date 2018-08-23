@@ -201,6 +201,9 @@ body {
     width: 100%;
 }
 /*用户内容*/
+.second-part-content{
+    margin-bottom: 6vw;
+}
 .second-part-content .content-header{
     display: flex;
     background-color: #fff;
@@ -261,8 +264,133 @@ body {
     height: 30vw;
     background-color: skyblue;
 }
+.second-part-content .content-detail .detail-box{
+    width: 90%;
+    height: 30vw;
+    margin: 0 auto;
+    border-bottom: 1px dotted #7b7b7b;
+}
 .second-part-content .content-detail .row{
     height: 10vw;
+    line-height: 10vw;
     display: flex;
     background-color: pink;
+}
+.second-part-content .content-detail .row:first-child{
+    color: #000;
+}
+.second-part-content .content-detail .row:nth-child(3){
+    color: #7B7B7B;
+}
+/*iphone5s及以下字体溢出隐藏*/
+@media screen and (max-width: 320px) {
+    .second-part-content .content-detail .row:nth-child(3){
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+}
+/*用户内容点赞等操作*/
+.second-part-content .content-operate{
+    display: flex;
+    height: 10vw;
+    background-color: orange;
+}
+.second-part-content .content-operate a{
+    display: block;
+    color: #7b7b7b;
+}
+.second-part-content .content-operate .heart-box,
+.com-box,
+.send-box,
+.good-box,
+.more-box{
+    height: 10vw;
+    line-height: 10vw;
+}
+.second-part-content .content-operate .heart{
+    flex: 0 0 15vw;
+    background-color: pink;
+}
+.second-part-content .content-operate .com{
+    flex: 0 0 15vw;
+    background-color: deepskyblue;
+}
+.second-part-content .content-operate .send{
+    flex: 0 0 15vw;
+    background-color: palegreen;
+}
+.second-part-content .content-operate .good{
+    flex: 0 0 15vw;
+    background-color: hotpink;
+}
+.second-part-content .content-operate .blank{
+    flex: 1;
+}
+
+.second-part-content .content-operate .more{
+    flex: 0 0 15vw;
+    background-color: palegreen;
+}
+
+.second-part-content .content-operate .more-box{
+    width: 15vw;
+}
+/*热度*/
+.second-part-content .content-hot{
+    height: 10vw;
+    line-height: 10vw;
+    background-color: #fff;
+    text-align: left;
+}
+.second-part-content .content-hot .hotbox{
+    width: 90%;
+    margin: 0 auto;
+    height: 10vw;
+    background-color: orange;
+}
+.second-part-content .content-hot span{
+    display: block;
+    height: 10vw;
+    line-height: 10vw;
+    color: #7b7b7b;
+    text-align: left;
+}
+
+/*第二个内容*/
+.second-part-content .content-header .content-header-left .header-box1{
+    background: url("../images/app-2-2-4.jpg")no-repeat;
+}
+.second-part-content .content-picture .pic1{
+    background: url(../images/app-2-5.jpg)no-repeat;
+    background-size: cover;
+}
+
+/*美妆达人内容*/
+.second-part-content .content-picture .meizhuang{
+    background: url("../images/app-4-2-1.jpg");
+}
+.second-part-content .content-picture .meizhuang2{
+    background: url("../images/app-4-2-2.jpg");
+}
+/*穿搭达人内容*/
+.second-part-content .content-picture .chuanda{
+    background: url("../images/chuanda1.jpg");
+}
+.second-part-content .content-picture .chuanda2{
+    background: url("../images/chuadna2.jpg");
+}
+/*文具达人内容*/
+.second-part-content .content-picture .wenju{
+    background: url("../images/app-5-1-1.jpg");
+}
+.second-part-content .content-picture .wenju2{
+    background: url("../images/app-5-1-2.jpg");
+}
+/*美食达人内容*/
+.second-part-content .content-picture .eat{
+    background: url("../images/app-eat-1-1.jpg");
+}
+.second-part-content .content-picture .eat1{
+    background: url("../images/app-eat-1-2.jpg");
 }
