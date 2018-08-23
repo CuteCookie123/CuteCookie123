@@ -20,18 +20,110 @@ a{
     width: 100%;
 }
 .nav-bar{
-    position: relative;
+    position: fixed;
     height: 40px;
     width: 100%;
     z-index: 100;
     padding: 0 10px;
     background: #eeeeee;
 }
+
+#nav-title .title-bar{
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.hideOne{
+    position: absolute;
+    top:40px;
+    left: 10px;
+    width: 271px;
+    zoom: 1;
+    z-index: 5;
+    background: #fff;
+    padding: 20px 10px 20px 20px;
+    border: 1px solid #c0c0c0;
+}
+.hideOne .item_t{
+    font-size: 12px;
+    padding: 10px 0;
+     color:#444;
+}
+.hideOne .item_d img{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+.hideOne .item_d p{
+    float: left;
+    font-size: 12px;
+    padding: 0 0 10px 15px;
+}
+.hideOne .item_btn{
+    display: block;
+    float: left;
+    margin-left: 16px;
+    padding: 6px 20px;
+    text-align: left;
+    font-size: 12px;
+    color:#fff;
+    background: #777;
+}
+.hideOne input{
+    height: 17px;
+    width: 240px;
+    padding: 6px 10px 5px;
+    font-size: 12px;
+    border: 1px solid #cececf;
+    outline: none;
+}
+.hideOne .item_r{
+    margin-left: 125px;
+    color: #888;
+}
+.hideOne .intro-box{
+    margin-bottom: 25px;
+}
+.intro-box textarea{
+    width: 239px;
+    height: 120px;
+    padding: 10px 10px 9px;
+    border: 1px solid #cececf;
+    outline: none;
+}
+.nav-bar .bar-btn{
+    /*position: relative;*/
+    /*right: 0;*/
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.bar-btn .br-tn{
+    display: inline-block;
+    zoom: 1;
+    line-height: 30px;
+    text-align: center;
+    background: #8dba00;
+    width: 88px;
+    /*padding: 0 10px;*/
+    height: 30px;
+    font-size: 12px;
+    border: 0;
+    cursor: pointer;
+    color:#ffffff;
+}
+
 .separate{
-    height: 50px;
+    height: 100px;
 }
 .content{
-    width:70%;
+    width:730px;
     margin: auto;
     /*background: #8dba00;*/
 }

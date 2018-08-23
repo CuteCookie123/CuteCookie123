@@ -621,3 +621,11 @@ header {
     height: 5613px;
     opacity: 0.8;
 }
+.login-wrapper {
+   animation: login 2s;
+}
+@keyframes login
+{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
