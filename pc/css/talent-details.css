@@ -12,13 +12,10 @@ body {
     background-attachment: fixed;
     background-color: #dfdfe1;
 }
-.header {
+.nav {
     height: 42px;
     margin-top: 8px;
 }
-.title{
-     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
- }
 .g-vip {
     position: absolute;
     right: 172px;
@@ -83,12 +80,13 @@ body {
     color: #fff;
     padding: 0px 7px 0px 26px;
 }
-.title {
+.header {
     width: 640px;
     margin: 0 auto 40px;
     padding: 25px 30px;
     background: #fff;
     overflow: hidden;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 .selfinfo {
     width: 68%;
@@ -260,5 +258,114 @@ body {
     color: #828d95;
     font-size: 12px;
 }
+.link a:hover {
+    color: #4d4d4d;
+}
+.page {
+     margin-left: 110px;
+     padding-bottom: 10px;
+     overflow: hidden;
+ }
+.prev {
+    padding: 0 20px 0 0;
+    height: 40px;
+    position: relative;
+    background-color: #828d95;
+    background-image: url("../images/td-font.png");
+    background-position: right -348px;
+}
+.prev {
+    float: left;
+}
+.prev a, .next a {
+    cursor: pointer;
+    width: 90px;
+    color: #828d95;
+}
+.cap1 {
+    width: 20px;
+    height: 40px;
+    display: block;
+    background: url("../images/td-font.png") left -282px no-repeat;
+    background-color: #828d95;
+}
+.arrow1 {
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/td-font.png") 8px -117px no-repeat;
+}
+.t-test1 {
+    position: absolute;
+    top: 0;
+    left: 23px;
+}
+.title1 {
+    float:left;
+    width:50px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 18px;
+    color: #fff;
+    background: #828d95;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+
+}
+.next {
+    float: right;
+    padding: 0 20px 0 0;
+    height: 40px;
+    position: relative;
+    background-color: #828d95;
+    background-image: url("../images/td-font.png");
+    background-position: right -348px;
+}
+.cap2 {
+    width: 20px;
+    height: 40px;
+    display: block;
+    background: url("../images/td-font.png") left -282px no-repeat;
+    background-color: #828d95;
+}
+.arrow2 {
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../images/td-font.png") 10px -195px no-repeat;
+}
+.t-test2 {
+    position: absolute;
+    top: 0;
+    right: 23px;
+}
+.title2 {
+    float:right;
+    width:50px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 18px;
+    color: #fff;
+    background: #828d95;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+
+}
+.footer, .footer a {
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.footer a:hover {
+    color: #828d95;
+}
+
 
 
