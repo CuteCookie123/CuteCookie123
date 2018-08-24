@@ -55,6 +55,34 @@ body {
     line-height: 25px;
     color: #333;
 }
-.ztag:focus{
+.ztag:focus {
     outline: none;
+}
+.b-bar{
+    width: 612px;
+    text-align: right;
+}
+.b-bar a {
+    display: inline-block;
+    width: 104px;
+    text-align: center;
+}
+.send ,.cancel{
+    margin-left: 10px
+}
+.send {
+    color: #fff;
+    line-height: 40px;
+    text-shadow: -1px -1px 0px #779e00;
+    border: 0;
+    font-size: 16px;
+    background: url("../images/btn24.png") no-repeat 0 0;
+}
+.cancel {
+    color: #444;
+    line-height: 40px;
+    text-shadow: -1px -1px 1px #fff;
+    border: 0;
+    font-size: 16px;
+    background: url("../images/btn24.png") no-repeat 0 -50px;
 }
