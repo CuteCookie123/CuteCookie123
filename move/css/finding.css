@@ -454,7 +454,7 @@ body {
     left:50%;
     height:3.2vw;
     transform: translate(-50%,0);
-    
+
 }
 .trip .carousel_icon{
     float:left;
@@ -472,3 +472,14 @@ body {
     background-size:8px;
     background-position:center center;
 }
+
+.second-part-content .content-picture .trip-content1{
+    background: url("../images/app-trip-1.jpg")no-repeat;
+    background-size: cover;
+}
+.second-part-content .content-picture .trip-content2{
+    background: url("../images/app-trip-2.jpg")no-repeat;
+    background-size: cover;
+}
+
+/*男神内容*/
