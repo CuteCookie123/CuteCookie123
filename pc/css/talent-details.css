@@ -30,12 +30,13 @@ body {
     height: 23px;
 }
 .g-hover {
-    position: fixed;
-    left: 747px;
-    top: 8px;
+    position: absolute;
+    left: 6px;
+    top: 0;
     z-index: 999;
 }
 .s-hover {
+    position:fixed;
     float: right;
     height: 23px;
     width: 167px;
