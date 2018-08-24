@@ -78,6 +78,9 @@ body {
     font-size: 16px;
     background: url("../images/btn24.png") no-repeat 0 0;
 }
+.send:hover {
+    background: url("../images/btn24.png") no-repeat -114px 0;
+}
 .cancel {
     color: #444;
     line-height: 40px;
@@ -85,4 +88,7 @@ body {
     border: 0;
     font-size: 16px;
     background: url("../images/btn24.png") no-repeat 0 -50px;
+}
+.cancel:hover {
+    background: url("../images/btn24.png") no-repeat -114px -50px;
 }
