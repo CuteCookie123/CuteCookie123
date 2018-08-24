@@ -357,9 +357,25 @@ body {
     text-align: left;
 }
 
-/*第二个内容*/
-.second-part-content .content-header .content-header-left .header-box1{
-    background: url("../images/app-2-2-4.jpg")no-repeat;
+/*穿搭达人内容*/
+.second-part-content .content-header .content-header-left .header-box1
+{
+    width: 10vw;
+    height: 10vw;
+    background: url("../images/app-cartoon-head-1.png")no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 2.5vw;
+}
+.second-part-content .content-header .content-header-left .wear1{
+    width: 10vw;
+    height: 10vw;
+    background: url("../images/app-cartoon-head-2.jpg")no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 2.5vw;
 }
 .second-part-content .content-picture .pic1{
     background: url(../images/app-2-5.jpg)no-repeat;
@@ -368,29 +384,46 @@ body {
 
 /*美妆达人内容*/
 .second-part-content .content-picture .meizhuang{
-    background: url("../images/app-4-2-1.jpg");
+    background: url("../images/app-4-2-1.jpg")no-repeat;
+    background-size: cover;
 }
 .second-part-content .content-picture .meizhuang2{
-    background: url("../images/app-4-2-2.jpg");
+    background: url("../images/app-4-2-2.jpg")no-repeat;
+    background-size: cover;
 }
 /*穿搭达人内容*/
 .second-part-content .content-picture .chuanda{
-    background: url("../images/chuanda1.jpg");
+    background: url("../images/chuanda1.jpg")no-repeat;
+    background-size: cover;
 }
 .second-part-content .content-picture .chuanda2{
-    background: url("../images/chuadna2.jpg");
+    background: url("../images/chuadna2.jpg")no-repeat;
+    background-size: cover;
 }
 /*文具达人内容*/
 .second-part-content .content-picture .wenju{
-    background: url("../images/app-5-1-1.jpg");
+    background: url("../images/app-5-1-1.jpg")no-repeat;
+    background-size: cover;
 }
 .second-part-content .content-picture .wenju2{
-    background: url("../images/app-5-1-2.jpg");
+    background: url("../images/app-5-1-2.jpg")no-repeat;
+    background-size: cover;
 }
 /*美食达人内容*/
 .second-part-content .content-picture .eat{
-    background: url("../images/app-eat-1-1.jpg");
+    background: url("../images/app-eat-1-1.jpg")no-repeat;
+    background-size: cover;
 }
 .second-part-content .content-picture .eat1{
-    background: url("../images/app-eat-1-2.jpg");
+    background: url("../images/app-eat-1-2.jpg")no-repeat;
+    background-size: cover;
+}
+/*游戏达人内容*/
+.second-part-content .content-picture .cartoon{
+    background: url("../images/app-cartoon-content-1.jpg")no-repeat;
+    background-size: cover;
+}
+.second-part-content .content-picture .cartoon2{
+    background: url("../images/app-cartoon-content-2.jpg")no-repeat;
+    background-size: cover;
 }
