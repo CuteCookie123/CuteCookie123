@@ -262,7 +262,7 @@ body {
     flex-direction: column;
     width: 100%;
     height: 30vw;
-    background-color: skyblue;
+    background-color: #fff;
 }
 .second-part-content .content-detail .detail-box{
     width: 90%;
@@ -274,7 +274,7 @@ body {
     height: 10vw;
     line-height: 10vw;
     display: flex;
-    background-color: pink;
+    background-color: #fff;
 }
 .second-part-content .content-detail .row:first-child{
     color: #000;
@@ -294,7 +294,7 @@ body {
 .second-part-content .content-operate{
     display: flex;
     height: 10vw;
-    background-color: orange;
+    background-color: #fff;
 }
 .second-part-content .content-operate a{
     display: block;
@@ -310,19 +310,19 @@ body {
 }
 .second-part-content .content-operate .heart{
     flex: 0 0 15vw;
-    background-color: pink;
+    /*background-color: pink;*/
 }
 .second-part-content .content-operate .com{
     flex: 0 0 15vw;
-    background-color: deepskyblue;
+    /*background-color: deepskyblue;*/
 }
 .second-part-content .content-operate .send{
     flex: 0 0 15vw;
-    background-color: palegreen;
+    /*background-color: palegreen;*/
 }
 .second-part-content .content-operate .good{
     flex: 0 0 15vw;
-    background-color: hotpink;
+    /*background-color: hotpink;*/
 }
 .second-part-content .content-operate .blank{
     flex: 1;
@@ -330,7 +330,7 @@ body {
 
 .second-part-content .content-operate .more{
     flex: 0 0 15vw;
-    background-color: palegreen;
+    /*background-color: palegreen;*/
 }
 
 .second-part-content .content-operate .more-box{
@@ -347,7 +347,7 @@ body {
     width: 90%;
     margin: 0 auto;
     height: 10vw;
-    background-color: orange;
+    /*background-color: orange;*/
 }
 .second-part-content .content-hot span{
     display: block;
