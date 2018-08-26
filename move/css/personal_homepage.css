@@ -41,3 +41,6 @@ header {
     border-radius: 40px;
     left: 58%;
 }
+.rotate {
+    transform: rotate(90deg);
+}
