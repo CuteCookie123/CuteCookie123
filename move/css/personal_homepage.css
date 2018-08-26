@@ -8,10 +8,9 @@ header i{
 .nav {
     position: fixed;
     width: 90%;
-}
-.nav i {
     color: white;
 }
+
 .left {
     float: left;
 }
@@ -25,31 +24,36 @@ header i{
     width: 100%;
     z-index: -1;
 }
-.pofile {
+.profile {
     position: absolute;
     width: 30%;
-    border-radius: 500px;
-    border: 3px solid white;
+
     top: 55%;
     left: 50%;
     transform: translate(-50%);
 }
+.profile-img {
+    width: 100%;
+    border-radius: 500px;
+    border: 3px solid white;
+}
 .cert {
     position: absolute;
-    width: 17px;
-    height: 17px;
-    top: 100%;
+    width: 20%;
+    height: 20%;
+    top: 80%;
     border-radius: 40px;
-    left: 57%;
+    left: 67%;
 }
 .rotate {
     transform: rotate(90deg);
     font-size: 20px;
     top: 4px;
     color: #bfbfbf;
+    transition: all 0.4s;
 }
 .check input {
-    padding: 3px 20px;
+    width: 80px;
     border-radius: 30px;
 }
 .chat {
@@ -59,9 +63,21 @@ header i{
     margin-left: 20px;
 }
 .follow {
+    /*display: none;*/
     border: 1px solid gray;
     background-color: #fff;
     color: gray;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.green {
+    color: #80c300;
+}
+.no-follow {
+    display: none;
+    border: 1px solid #80c300;
+    background-color: #fff;
+    color: #80c300;
     margin-left: 20px;
     margin-right: 5px;
 }
@@ -154,4 +170,167 @@ header i{
 }
 .share-list {
     background-color: #f1f1f1;
+}
+.comment {
+    color: gray;
+}
+.more-box {
+    width: 40%;
+    height: 100%;
+    padding: 3%;
+    border: 1px solid #cbcaca;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+.more-box .profile {
+    position: relative;
+    width: 100%;
+}
+.more-box .profile .profile-img {
+    width: 80%;
+}
+.more-box .profile .cert {
+    width: 15%;
+    height: 17%;
+}
+.view-more {
+    display: none;
+    position: relative;
+    width: 100%;
+    background-color: #f3f4f5;
+    margin-top: 20px;
+}
+.more-content {
+    /*overflow-x: auto;*/
+    display: -webkit-box;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling:touch;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+.more-content:before {
+    clear: both;
+    zoom: 1;
+    content: '';
+    display: block;
+}
+.more-text {
+    padding: 15px;
+    width: 100%;
+    /* height: 5%; */
+    display: table;
+}
+.more-box p {
+    margin: 0;
+}
+.more-box .liked {
+    margin: 3px 0 5px 0;
+    color: gray;
+    font-size: 13px;
+}
+.more-text span {
+    color: gray;
+}
+.more-text a  {
+    color: #80c300;
+}
+.more-box input {
+    color: white;
+    background-color: #80c300;
+    border: 1px solid #80c300;
+    border-radius: 15px;
+    padding: 4px 19px;
+}
+.more-content .more-box:first-child {
+    margin-left: 15px;
+}
+.more-content:after {
+    margin-right: 15px;
+}
+.view-more p,.view-more span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.view-more:before {
+    position: absolute;
+    top: -7%;
+    right: 22%;
+    content: '';
+    border-width: 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent #f3f4f5;
+}
+.active {
+    transform: rotate(270deg);
+}
+.share {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 17px;
+    margin: 0;
+}
+.share-content ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #eaeaea;
+    background-color: white;
+}
+.share-content ul {
+    background-color: #eaeaea;
+}
+.red {
+    color: red;
+}
+.share-content ul li:last-child {
+    margin-top: 5px;
+    border-bottom: none;
+}
+.share-bg {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #38383857;
+    height: 5613px;
+    opacity: 0.8;
+}
+.special_focus {
+    display: none;
+    position: fixed;
+    width: 80%;
+    top: 35%;
+    margin: 0 10%;
+}
+.knew {
+    color: #80c300;
+    font-size: 16px;
+    margin: 0;
+}
+.notify {
+    border-bottom: 1px solid lightgray;
+}
+.special-box {
+    background-color: white;
+    border-radius: 5px;
+}
+.special-box p {
+    margin: 0;
+    padding: 15px 0;
+}
+.special-box p:first-child{
+    font-weight: bold;
+    padding: 20px 0 0 0;
+    font-size: 15px;
+}
+#no-special {
+    display: none;
 }
