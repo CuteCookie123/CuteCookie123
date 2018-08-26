@@ -1,8 +1,9 @@
-body {
-    font-size: 18px;
-}
+
 header {
     position: relative;
+}
+header i{
+    font-size: 18px;
 }
 .nav {
     position: fixed;
@@ -26,7 +27,7 @@ header {
 }
 .pofile {
     position: absolute;
-    width: 35%;
+    width: 30%;
     border-radius: 500px;
     border: 3px solid white;
     top: 55%;
@@ -35,12 +36,122 @@ header {
 }
 .cert {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     top: 100%;
     border-radius: 40px;
-    left: 58%;
+    left: 57%;
 }
 .rotate {
     transform: rotate(90deg);
+    font-size: 20px;
+    top: 4px;
+    color: #bfbfbf;
+}
+.check input {
+    padding: 3px 20px;
+    border-radius: 30px;
+}
+.chat {
+    background-color: #5b9fc9;
+    color: white;
+    border: 1px solid #5b9fc9;
+    margin-left: 20px;
+}
+.follow {
+    border: 1px solid gray;
+    background-color: #fff;
+    color: gray;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.info{
+    padding-top: 7%;
+}
+.info h4 {
+    font-weight: bold;
+}
+.info p {
+    font-size: 14px;
+}
+.brief {
+    color: #b9b9b9;
+}
+.like {
+    font-size: 15px;
+}
+.reward {
+    width: 100%;
+    background-color: #f3f4f5;
+    margin: 30px 0;
+    font-size: 13px;
+    padding: 15px;
+    color: #9a9898;
+}
+.people img {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.essay {
+    font-size: 14px;
+    color: #a7a5a5;
+    line-height: 22px;
+}
+.change {
+    font-size: 22px;
+}
+.box-head img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.box-head {
+    padding-top: 15px;
+    margin: 15px 0;
+    line-height: 40px;
+}
+.time {
+    color: #aaaaaa;
+}
+.share-pic img {
+    width: 100%;
+    height: auto;
+}
+.box-bottom {
+    margin-top: 20px;
+}
+.tag {
+    color: gray;
+    border-bottom: 1px solid #b6b6b6;
+    padding-bottom: 10px;
+}
+.tag span {
+    margin-right: 10px;
+}
+.action {
+    font-size: 20px;
+    margin: 20px 0 15px;
+    color: #afafaf;
+}
+.action i {
+    margin-right: 30px;
+}
+.action i:last-child {
+    margin-right: 0;
+}
+.hot {
+    color: gray;
+}
+.share-box {
+    margin-top: 20px;
+    background-color: white;
+}
+.share-box:first-child {
+    margin-top: 0;
+}
+.share-list {
+    background-color: #f1f1f1;
 }
