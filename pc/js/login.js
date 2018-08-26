@@ -62,9 +62,9 @@ $(document).ready(function(){
 
     //中间图片切换
     $("#slider li img").click(function () {
-        var halfWidth = $(window).width()/2;
+        var halfWidth = $(window).width()/2;  //获得当前屏幕宽度的一半
         var e = event || window.event;
-        var x = e.clientX ;
+        var x = e.clientX ;             //获得鼠标点击时x轴的位置
         var left = $("#slider").offset().left;
         //最左边不再左移
         if (left>300 && x<halfWidth){
