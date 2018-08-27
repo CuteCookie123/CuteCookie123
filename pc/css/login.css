@@ -389,13 +389,17 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 }
 .slider ul{
     position: absolute;
-    left: -524px;
+    left: -1120px;
     top: 0;
     width: 9999px;
+    transition: left 1s;
 }
 .slider ul li{
     float: left;
     margin: 0 15px;
+}
+.slider ul li img {
+    cursor: pointer;
 }
 .slider:after,.lofter:after {
     clear: both;
@@ -616,4 +620,12 @@ header {
     z-index: 909;
     height: 5613px;
     opacity: 0.8;
+}
+.login-wrapper {
+   animation: login 2s;
+}
+@keyframes login
+{
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
