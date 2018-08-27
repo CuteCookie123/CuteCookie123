@@ -67,8 +67,25 @@ $(document).ready(function() {
     });
     //转载
     $(".glyphicon-share").click(function () {
-
         $(".share-bg").fadeIn();
         $(".share2").slideDown();
+    });
+    //缩略图切换
+    $(".glyphicon-tasks,.glyphicon-th").click(function () {
+        $(".thumbnail-list").toggle();
+        $(".share-list").fadeToggle();
+        $(".glyphicon-th,.glyphicon-tasks").toggle();
+    });
+    //顶部导航
+    $(window).scroll(function() {
+        var scrollY = $(document).scrollTop();// 获取垂直滚动的距离，即滚动了多少
+        if (scrollY > 165){ //如果滚动距离满足条件则出现，否则删除隐藏类
+            $(".middle").fadeIn();
+            $('.nav').addClass("top-nav");
+        }
+        else {
+            $(".middle").hide();
+            $('.nav').removeClass("top-nav");
+        }
     });
 });

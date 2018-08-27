@@ -7,18 +7,21 @@ header i{
 }
 .nav {
     position: fixed;
-    width: 90%;
+    width: 100%;
     color: white;
+    padding: 10px 15px 9px;
+    margin: 0;
+    z-index: 999;
+    transition: all 0.5s;
 }
-
+img {
+    width: 100%;
+}
 .left {
     float: left;
 }
 .right {
     float: right;
-}
-.nav {
-    margin-top: 10px;
 }
 .bg {
     width: 100%;
@@ -378,4 +381,45 @@ ul {
 }
 .share-app ul li span {
     font-size: 13px;
+}
+.thumbnail-pic{
+    overflow: hidden;
+}
+.thumbnail-pic img {
+    width: 33%;
+    float: left;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+}
+.thumbnail-pic img:nth-child(3n) {
+    margin-right: 0;
+}
+.month-box p {
+    color: #a7a5a5;
+    margin: 20px 0;
+}
+.thumbnail-list {
+    display: none;
+}
+.glyphicon-th {
+    display: none;
+}
+.top-nav {
+    background-color: white;
+    color: #4a4a4a;
+}
+.middle {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.middle p {
+    margin: 0;
+}
+.id {
+    font-size: 12px;
+}
+.nav .left,.nav .right {
+    line-height: 36px;
 }
