@@ -154,7 +154,7 @@ img {
     margin: 20px 0 15px;
     color: #afafaf;
 }
-.action i {
+.action i,.action a {
     margin-right: 30px;
 }
 .action i:last-child {
@@ -421,4 +421,10 @@ ul {
 }
 .nav .left,.nav .right {
     line-height: 36px;
+}
+.nav a i {
+    color: #fff;
+}
+.action a i {
+    color: #afafaf;
 }
