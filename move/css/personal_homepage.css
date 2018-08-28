@@ -257,7 +257,7 @@ img {
 }
 .view-more:before {
     position: absolute;
-    top: -7%;
+    top: -20px;
     right: 22%;
     content: '';
     border-width: 10px 10px;
